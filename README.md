@@ -57,3 +57,13 @@ jupyter notebook fourier_svg.ipynb
 
 - SVG and plot coordinate systems are different; the notebook flips Y so the drawing is not vertically reflected.
 - GIF size/speed are controlled in `animate_epicycles(...)` via `frames` and `gif_seconds`.
+
+## Next Steps:
+- make web-based platform
+- interactive ui, users can draw a shape and it will automatically calculate and display (no saving, which takes a lot of time)
+- live controls for `n_vectors`, `frames`, and `gif_seconds` with immediate preview
+- upload SVG directly in browser (drag and drop) and auto-normalize/center paths
+- export options: fast preview (low detail) vs high-quality render (full detail)
+- optimize rendering performance with canvas/WebGL and incremental redraw
+- add side-by-side comparison: original path, Fourier reconstruction, and epicycle animation
+- add presets/examples so users can try sample drawings without uploading files
