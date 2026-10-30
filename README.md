@@ -1,6 +1,6 @@
 # SVG Fourier Epicycles
 
-Turn an SVG drawing into a Fourier-series epicycle animation using Python and Jupyter.
+Turn an SVG drawing into a Fourier-series epicycle animation using Python and Jupyter. Inspired by 3b1b's [video on Fourier series](https://www.youtube.com/watch?v=r6sGWTCMz2k)!
 
 This project:
 - loads an SVG path,
